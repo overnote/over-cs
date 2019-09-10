@@ -13,7 +13,8 @@
 #### 2.0  前置知识
 
 - [《鸟哥的私房菜：基础学习篇》](https://book.douban.com/subject/4889838/)：适合0基础了解Linux
-- [《Unix/Linux编程实践教程》](https://book.douban.com/subject/1219329/)：适合0Linux开发经验体验
+- [《C Primer Plus》第6版](https://book.douban.com/subject/26792521/)
+- [《C++ Primer》第5版](https://book.douban.com/subject/25708312/)
 
 #### 2.1 Linux编程
 
