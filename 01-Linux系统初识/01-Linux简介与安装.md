@@ -68,3 +68,11 @@ ssh-keygen -t rsa -b 2048 -f /etc/ssh/ssh_host_rsa_key
 apt update
 apt install gcc g++ gdb --fix-missing
 ```
+
+## 三 安装注意事项
+
+无法联网：
+```
+虚拟机软件选择桥接模式
+输入 reboot 重启命令即可
+```
