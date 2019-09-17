@@ -27,11 +27,12 @@ C++基础：
 
 #### 2.1 Linux编程
 
-- [《UNIX编程艺术》2012版](https://book.douban.com/subject/11609943/)
+基础：
 - [《Linux 系统编程》](https://book.douban.com/subject/25828773/)
 - [《Linux命令行与shell脚本编程大全》](https://book.douban.com/subject/26854226/)：shell精品
+- [《UNIX编程艺术》2012版](https://book.douban.com/subject/11609943/)
 
-APUE：
+大部头：
 - [《Linux/UNIX系统编程手册》](https://book.douban.com/subject/25809330/)：新版经典书籍，可以取代APUE
 - [《UNIX环境高级编程》第3版](https://book.douban.com/subject/25900403/)：俗称 APUE，必读经典
 - [《Unix网络编程》卷1和卷2 第3版](https://book.douban.com/subject/26434583/)：必读经典
