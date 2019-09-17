@@ -1,3 +1,60 @@
+## 多文件
+
+往往将函数的声明放在头文件中，其他地方使用该函数，只用引入该头文件即可。
+
+test.h头文件：
+```c
+extern int min(int x, int y);
+extern int max(int x, int y);
+```
+
+test.c源文件：
+```c
+int min(int x, int y) {
+    return x>y ? x:y;
+}
+
+int max(int x, int y) {
+    return x<y ? x:y;
+}
+```
+
+main函数调用:
+```c
+#include "test.h"
+int mian() {
+    int a = 10, b = 20, minNum;
+    minNum = min(a, b);
+    return 0;
+}
+```
+
+当一个项目比较大时，往往都是分文件，这时候有可能不小心把同一个头文件 include 多次，或者头文件嵌套包含。常用2种解决方式：
+- #ifndef 方式
+- #pragma once 方式
+
+方法一：
+```c
+#ifndef __SOMEFILE_H__
+#define __SOMEFILE_H__
+
+// 声明语句
+
+#endif
+```
+
+方法二：
+```c
+#pragma once
+
+// 声明语句
+```
+
+
+
+ 
+
+## makefile
 ## 一 Make概述
 
 企业级项目往往拥有很多源码文件，手动编译非常困难，Makefile可以确定整个工程的编译规则，只需要一个make命令，就可以实现 `自动化编译`，避免了人工操作大量文件的困难。大多软件都支持make命令，如Visual C++的nmake，Linux下GNU的make。  
