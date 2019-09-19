@@ -4,7 +4,7 @@
 
 ## 一 计算机组成原理
 
-- [《深入理解计算机系统》第3版](https://book.douban.com/subject/26912767/)：必读经典，建议英文版
+- [《深入理解计算机系统》第3版](https://book.douban.com/subject/26912767/)：csapp，必读经典，建议英文版
 - [《计算机组成与设计：硬件/软件接口》第5版](https://book.douban.com/subject/26604008/)：必读经典，建议英文版
 
 ## 二 操作系统
@@ -20,7 +20,7 @@ C语言基础：
 - [《C Primer Plus》第6版](https://book.douban.com/subject/26792521/)
 - [《C程序设计语言》第2版](https://book.douban.com/subject/26608871/)
 
-C++基础：
+C++语言基础（选修）：
 - [《C++ Primer》第5版](https://book.douban.com/subject/25708312/)
 - [《C++程序设计 原理与实践基础篇原书第2版》](https://book.douban.com/subject/27023080/)
 - [《C++程序设计 原理与实践进阶篇原书第2版》](https://book.douban.com/subject/27023110/)
@@ -28,9 +28,8 @@ C++基础：
 #### 2.1 Linux编程
 
 基础：
-- [《Linux 系统编程》](https://book.douban.com/subject/25828773/)
+- [《Linux系统编程》](https://book.douban.com/subject/25828773/)
 - [《Linux命令行与shell脚本编程大全》](https://book.douban.com/subject/26854226/)：shell精品
-- [《UNIX编程艺术》2012版](https://book.douban.com/subject/11609943/)
 
 大部头：
 - [《Linux/UNIX系统编程手册》](https://book.douban.com/subject/25809330/)：新版经典书籍，可以取代APUE
