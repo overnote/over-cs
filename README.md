@@ -32,6 +32,7 @@ C++语言基础（选修）：
 - [《Linux系统编程》](https://book.douban.com/subject/25828773/)
 - [《Linux命令行与shell脚本编程大全》](https://book.douban.com/subject/26854226/)：shell精品
 - [《深入理解计算机系统》第3版](https://book.douban.com/subject/26912767/)：csapp，必读经典，建议英文版
+- [《Linux环境编程：从应用到内核》](https://book.douban.com/subject/26820213/)
 
 大部头：
 - [《Linux/UNIX系统编程手册》](https://book.douban.com/subject/25809330/)：新版经典书籍，可以取代APUE
@@ -54,6 +55,7 @@ C++语言基础（选修）：
 - [《操作系统-精髓与设计原理》第6版](https://book.douban.com/subject/5064311/)
 - [《操作系统设计：Xinu方法》](https://book.douban.com/subject/25772410/)
 - [《一个64位操作系统的设计与实现》](https://book.douban.com/subject/30222325/)
+- [《操作系统真象还原》](https://book.douban.com/subject/26745156/)
 - [《Orange'S:一个操作系统的实现》](https://book.douban.com/subject/3735649/)
 - [《UNIX操作系统设计》](https://book.douban.com/subject/1035710/)
 - [《现代体系结构上的UNIX系统》](https://book.douban.com/subject/26290762/)
