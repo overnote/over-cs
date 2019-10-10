@@ -13,7 +13,6 @@
 #### 2.0  前置知识
 
 Linux基础：
-- [《计算机科学概论》第11版](https://book.douban.com/subject/6862061/)：计算机0基础科普教材
 - [《鸟哥的私房菜：基础学习篇》](https://book.douban.com/subject/4889838/)：适合0基础了解Linux
 - [《鸟哥的私房菜：服务器架设篇》](https://book.douban.com/subject/10794788/)：偏运维方向
 - [《UNIX/Linux系统管理技术手册》](https://book.douban.com/subject/10747453/)：偏运维方向
@@ -114,3 +113,4 @@ C++语言基础（选修）：
 - [Python](https://github.com/overnote/over-python)：Python相关笔记，完善中
 - [Flutter](https://github.com/overnote/over-flutter)：Dart与Flutter相关笔记，完善中
 - [Java](https://github.com/overnote/over-java)：Java相关笔记，完善中
+- [计算机考研推荐](https://github.com/overnote/over-golang/blob/master/postgraduate)：考研教材推荐
