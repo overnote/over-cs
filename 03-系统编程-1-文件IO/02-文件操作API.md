@@ -136,7 +136,31 @@ int lstat(const char *pathname, struct stat *buf);
 ## 三 文件操作示例
 
 ```c
+#include <stdio.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+int main(){
 
+    // 打开文件
+    int fd = open("./test.txt", O_CREAT | O_RDWR);
+    if (fd == -1) {
+        printf("文件打开出错");
+        return 0;
+    }
+    printf("打开的文件描述符为：%d\n", fd);
+
+    // 关闭文件：成功则返回0
+    fd = close(fd);
+    if (fd == -1) { 
+         printf("文件关闭出错");
+        return 0;
+    }
+    printf("文件已关闭：%d\n", fd);
+
+    return 0;
+}
 ```
 
 ## 四 API补充

@@ -98,6 +98,10 @@ C++语言基础（选修）：
 - [《编译原理》](https://book.douban.com/subject/3296317/)
 - [《计算机程序的构造与解释》](https://book.douban.com/subject/1148282/)
 
+## 五 考研相关
+
+- [计算机考研推荐](https://github.com/overnote/over-linux/blob/master/postgraduate)：考研教材推荐
+
 ## 附录：笔记汇总
 
 **OverNote**地址：https://github.com/overnote   
@@ -106,13 +110,10 @@ C++语言基础（选修）：
 
 **OverNote分类**：  
 - [Go](https://github.com/overnote/over-golang)：详尽的Go领域笔记：Go语法、Go并发编程、GoWeb编程、Go微服务等
-- [JavaScript](https://github.com/overnote/over-javascript)：包含网页、JS、前端工程化、Node、vue、react、小程序等JS相关领域技术笔记
+- [大前端 front-end-master](https://github.com/overnote/front-end-master)：包含JavaScript、Node.js、vue/react、微信开发、Flutter等大前端技术
 - [数据结构与算法](https://github.com/overnote/over-algorithm)：以C/Go实现为主记录数据结构与算法的笔记
 - [分布式与微服务架构](https://github.com/overnote/over-architecture/)：分布式与微服务等架构相关笔记
 - [Linux](https://github.com/overnote/over-linux)：计算机组成原理、操作系统、计算机网络、编译原理基础学科笔记
-- [服务端常用技术](https://github.com/overnote/over-server)：nginx、mysql、redis、mongodb、linux系统基础等服务端常用技术汇总笔记
+- [服务端常用技术](https://github.com/overnote/server-side)：nginx、mysql、redis、mongodb、linux系统基础等服务端常用技术汇总笔记
 - [大数据](https://github.com/overnote/over-bigdata)：大数据笔记，完善中
 - [Python](https://github.com/overnote/over-python)：Python相关笔记，完善中
-- [Flutter](https://github.com/overnote/over-flutter)：Dart与Flutter相关笔记，完善中
-- [Java](https://github.com/overnote/over-java)：Java相关笔记，完善中
-- [计算机考研推荐](https://github.com/overnote/over-golang/blob/master/postgraduate)：考研教材推荐
