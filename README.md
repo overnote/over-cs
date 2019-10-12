@@ -4,9 +4,9 @@
 
 ## 一 计算机组成原理
 
-硬件方向：
 - [《计算机组成与设计：硬件/软件接口》第5版](https://book.douban.com/subject/26604008/)：必读经典，建议英文版
 - [《编码》](https://book.douban.com/subject/20260928/)：
+- [《深入理解计算机系统》第3版](https://book.douban.com/subject/26912767/)：csapp，必读经典，建议英文版
 
 ## 二 操作系统
 
@@ -29,10 +29,10 @@ C++语言基础（选修）：
 #### 2.1 Linux编程
 
 基础：
-- [《Linux系统编程》](https://book.douban.com/subject/25828773/)
 - [《Linux命令行与shell脚本编程大全》](https://book.douban.com/subject/26854226/)：shell精品
-- [《深入理解计算机系统》第3版](https://book.douban.com/subject/26912767/)：csapp，必读经典，建议英文版
-- [《Linux环境编程：从应用到内核》](https://book.douban.com/subject/26820213/)
+- [《Linux程序设计》第4版](https://book.douban.com/subject/4831448/)：最初级的系统编程书籍（后续界面开发可以不看）
+- [《Linux系统编程》](https://book.douban.com/subject/25828773/)：没有多少具体的案例代码，可作为上述书籍的补充
+- [《Linux环境编程：从应用到内核》](https://book.douban.com/subject/26820213/)：对APUE的补充
 
 大部头：
 - [《Linux/UNIX系统编程手册》](https://book.douban.com/subject/25809330/)：新版经典书籍，可以取代APUE
