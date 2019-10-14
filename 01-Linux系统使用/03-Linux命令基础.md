@@ -1,50 +1,50 @@
-## 一 Linux目录
+## 一 Linux命令概述
 
-#### 1.1 常见目录
+Linux的命令包括两种：
+- 内部命令：Shell解析器的一部分，如 cd pwd help；使用 help + 命令，如 help cd 可以查看帮助文档
+- 外部命令：独立于Shell的程序，如 ls mkdir cp,使用 man + 命令，如 man ls 可以查看帮助文档,其实外部命令就是外部来操作了Linux底层的库、命令后调用的CPU。  
 
-- `/`：根目录
-- `/bin`、`/usr/bin`：可执行二进制文件的目录，如常用的命令ls、tar、mv、cat等
-- `/usr`：应用程序存放目录，`/usr/bin` 存放应用程序，`/usr/share` 存放共享数据，`/usr/local 存放软件升级包，`/usr/share/doc`存放系统说明文件存放目录，`/usr/share/man`程序说明文件存放目录
-- `/root`：管理员root目录
-- `etc`：系统配置文件存放的目录
-- `home`：系统默认的用户家目录，新增用户账号时，用户的家目录都存放在此目录下，~表示当前用户的家目录，~edu 表示用户 edu 的家目录
-- `/lib`、`/usr/lib`、`/usr/local/lib`：系统使用的函数库的目录，程序在执行过程中，需要调用一些额外的参数时需要函数库的协助
-- `/sbin`、`/usr/sbin`、`/usr/local/sbin`：放置可执行命令，如fdisk、shutdown、mount 等，与 `/bin` 不同的是，这几个目录是给系统管理员 root使用的命令，一般用户只能"查看"而不能设置和使用
-- `/tmp`：一般用户或正在执行的程序临时存放文件的目录，任何人都可以访问，重要数据不可放置在此目录下
-- `/srv`：服务启动之后需要访问的数据目录，如 www 服务需要访问的网页数据存放在 `/srv/www` 内
-- `/var`：放置系统执行过程中经常变化的文件，如随时更改的日志文件 `/var/log`
-
-#### 1.2 Linux中的路径
-
-绝对路径：从/目录开始描述的路径为绝对路径，如：
-```
-cd /home
-ls /usr
-```
-
-相对路径：从当前位置开始描述的路径为相对路径，如：
-```
-cd ../../
-ls abc/def
-```
-
-.和..:每个目录下都有.和..
-```
-. 表示当前目录
-.. 表示上一级目录，即父目录
-```
-注意：根目录下的.和..都表示当前目录
-
-## 二 Linux命令
-
-#### 2.1 Linux命令格式
-
+Linux命令格式：
 ```
 格式：  comman [-options] [parameter]   # []表示可选      
 示例：	ls -l /usr                      # 分别代表：命令 选项 参数
 ```
 
-#### 2.2 常用命令
+## 二 帮助文档
+
+man是linux提供的一个手册，包含了绝大部分的命令、函数使用说明。例：
+```
+man ls 
+man 2 printf
+```
+
+man中各个section意义如下：
+```
+Standard commands（标准命令）
+System calls（系统调用，如open,write）
+Library functions（库函数，如printf,fopen）
+Special devices（设备文件的说明，/dev下各种设备）
+File formats（文件格式，如passwd）
+Games and toys（游戏和娱乐）
+Miscellaneous（协定等如：档案系统、网络协定、environ全局变量）
+Administrative Commands（管理员命令，如ifconfig）
+```
+
+man是按照手册的章节号的顺序进行搜索的。man设置了如下的功能键：
+```
+功能键	功能
+空格键	显示手册页的下一屏
+Enter键	一次滚动手册页的一行
+b	回滚一屏
+f	前滚一屏
+q	退出man命令
+h	列出所有功能键
+/word	搜索word字符串
+```
+
+## 三 Linux常用基础命令
+
+
 
 查看文件与文件夹命令：
 ```
@@ -242,40 +242,45 @@ ln 源文件 链接文件    连接，即快捷方式，这是硬链接方式，
 
 ```
 
-#### 2.3 帮助文档
+## 四 进程命令
 
-Linux的命令包括两种：
-- 内部命令：	Shell解析器的一部分，如 cd pwd help；使用 help + 命令，如 help cd 可以查看帮助文档
-- 外部命令：	独立于Shell的程序，如 ls mkdir cp,使用 man + 命令，如 man ls 可以查看帮助文档,其实外部命令就是外部来操作了Linux底层的库、命令后调用的CPU。
-
-#### 2.4 manual
-
-man是linux提供的一个手册，包含了绝大部分的命令、函数使用说明。例：
+top命令可以动态显示进程。在top命令执行后，可以按下按键得到对显示的结果进行排序：
 ```
-man ls 
-man 2 printf
-```
-
-man中各个section意义如下：
-```
-Standard commands（标准命令）
-System calls（系统调用，如open,write）
-Library functions（库函数，如printf,fopen）
-Special devices（设备文件的说明，/dev下各种设备）
-File formats（文件格式，如passwd）
-Games and toys（游戏和娱乐）
-Miscellaneous（协定等如：档案系统、网络协定、environ全局变量）
-Administrative Commands（管理员命令，如ifconfig）
+M	根据内存使用量来排序
+P	根据CPU占有率来排序
+T	根据进程运行时间的长短来排序
+U	可以根据后面输入的用户名来筛选进程
+K	可以根据后面输入的PID来杀死进程。
+q	退出
+h	获得帮助
 ```
 
-man是按照手册的章节号的顺序进行搜索的。man设置了如下的功能键：
+kill命令指定进程号的进程，需要配合 ps 使用，使用格式：kill [-signal] pid。  
+
+信号值从0到15，其中9为绝对终止，可以处理一般信号无法终止的进程。  
+
+有些进程不能直接杀死，这时候我们需要加一个参数“ -9 ”，“ -9 ” 代表强制结束：
+
+## 五 系统相关命令
+
 ```
-功能键	功能
-空格键	显示手册页的下一屏
-Enter键	一次滚动手册页的一行
-b	回滚一屏
-f	前滚一屏
-q	退出man命令
-h	列出所有功能键
-/word	搜索word字符串
+reboot				重新启动操作系统
+shutdown –r now	重新启动操作系统，shutdown会给别的用户提示
+shutdown -h now	立刻关机，其中now相当于时间为0的状态
+shutdown -h 20:25	系统在今天的20:25 会关机
+shutdown -h +10		系统再过十分钟后自动关机
+init 0	关机
+init 6	重启
 ```
+
+df命令用于检测文件系统的磁盘空间占用和空余情况，可以显示所有文件系统对节点和磁盘块的使用情况：
+- -a	显示所有文件系统的磁盘使用情况
+- -m	以1024字节为单位显示
+- -t	显示各指定文件系统的磁盘空间使用情况
+- -T	显示文件系统
+
+du命令用于统计目录或文件所占磁盘空间的大小，该命令的执行结果与df类似，du更侧重于磁盘的使用状况，格式`du [选项] 目录或文件名`:
+- -a	递归显示指定目录中各文件和子目录中文件占用的数据块 
+- -s	显示指定文件或目录占用的数据块
+- -b	以字节为单位显示磁盘占用情况
+- -l	计算所有文件大小，对硬链接文件计算多次
