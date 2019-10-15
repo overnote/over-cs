@@ -76,13 +76,19 @@
 
 ## 三 计算机网络
 
-- [《计算机网络 自顶向下方法》](https://book.douban.com/subject/1116437/)
-- [《图解HTTP》](https://book.douban.com/subject/25863515/)
-- [《HTTP权威指南》](https://book.douban.com/subject/10746113/)
+基础：
+- [《图解HTTP》](https://book.douban.com/subject/25863515/)：HTTP的简单介绍
+- [《图解TCP/IP》](https://book.douban.com/subject/24737674/)：TCP的简单介绍
+- [《计算机网络 自顶向下方法》](https://book.douban.com/subject/1116437/)：经典书籍，适合入门
+- [《HTTP权威指南》](https://book.douban.com/subject/10746113/)：经典书籍
+
+深入：
 - [《深入浅出 HTTPS》](https://book.douban.com/subject/30250772/)
-- [《图解TCP/IP》](https://book.douban.com/subject/24737674/)
-- [《TCP/IP详解》](https://book.douban.com/subject/1088054/)    
-- [《图解服务器端网络架构》](https://book.douban.com/subject/26369253/)  
+- [《计算机网络（第5版）》](https://book.douban.com/subject/10510747/)
+- [《TCP/IP详解 卷1：协议》](https://book.douban.com/subject/10742272/)：经典书籍   
+- [《TCP/IP详解 卷2：实现》](https://book.douban.com/subject/4707727/)：经典书籍    
+- [《TCP/IP详解 卷3：T/TCP、HTTP、NNTP及UNIX域协议》](https://book.douban.com/subject/4707732/)：经典书籍   
+- [《图解服务器端网络架构》](https://book.douban.com/subject/26369253/)：企业级网络架构实践
 
 ## 四 编译原理
 
