@@ -95,9 +95,6 @@
 - [《编译原理》](https://book.douban.com/subject/3296317/)
 - [《计算机程序的构造与解释》](https://book.douban.com/subject/1148282/)
 
-## 五 考研相关
-
-- [计算机考研推荐](https://github.com/overnote/over-linux/blob/master/postgraduate)：考研教材推荐
 
 ## 附录：笔记汇总
 
