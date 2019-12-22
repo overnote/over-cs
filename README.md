@@ -12,19 +12,18 @@
 
 #### 2.0  前置知识
 
+操作系统基础使用：
 - [《鸟哥的私房菜：基础学习篇》](https://book.douban.com/subject/4889838/)：适合0基础了解Linux
 - [《Linux命令行与shell脚本编程大全》](https://book.douban.com/subject/26854226/)：shell精品
 - [《鸟哥的私房菜：服务器架设篇》](https://book.douban.com/subject/10794788/)：偏运维方向
 - [《UNIX/Linux系统管理技术手册》](https://book.douban.com/subject/10747453/)：偏运维方向
 
-另外需要编程基础（只用看C语言即可）：
-```
-《C Primer Plus》第6版
-《C 程序设计语言》第2版
-《C++ Primer》第5版
-《C++程序设计 原理与实践基础篇》第2版
-《C++程序设计 原理与实践进阶篇》第2版
-```
+编程语言基础（只用看C语言即可）：
+- [《C 程序设计语言》第2版](https://book.douban.com/subject/1139336/)
+- [《C Primer Plus》第6版](https://book.douban.com/subject/26792521/)
+- [《C++ Primer》第5版](https://book.douban.com/subject/25708312/)
+- [《C++程序设计 原理与实践基础篇》第2版](https://book.douban.com/subject/27023080/)
+- [《C++程序设计 原理与实践进阶篇》第2版](https://book.douban.com/subject/27023110/)
 
 #### 2.1 系统编程
 
