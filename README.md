@@ -48,6 +48,7 @@
 
 #### 2.4 操作系统设计
 
+- [《30天自制操作系统》](https://book.douban.com/subject/11530329/)
 - [《一个64位操作系统的设计与实现》](https://book.douban.com/subject/30222325/)
 - [《操作系统真象还原》](https://book.douban.com/subject/26745156/)
 - [《Orange'S:一个操作系统的实现》](https://book.douban.com/subject/3735649/)
@@ -77,9 +78,11 @@
 基础：
 - [《图解HTTP》](https://book.douban.com/subject/25863515/)：HTTP的简单介绍
 - [《图解TCP/IP》](https://book.douban.com/subject/24737674/)：TCP的简单介绍
+- [《网络是怎样连接的》](https://book.douban.com/subject/26941639/)
 - [《TCP/IP协议族》](https://book.douban.com/subject/5386194)
 - [《计算机网络 自顶向下方法》](https://book.douban.com/subject/1116437/)：经典书籍，适合入门
 - [《HTTP权威指南》](https://book.douban.com/subject/10746113/)：经典书籍
+- [《HTTP/2基础教程》](https://book.douban.com/subject/27665112/)：应用书籍
 
 深入：
 - [《深入浅出 HTTPS》](https://book.douban.com/subject/30250772/)
