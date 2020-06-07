@@ -2,6 +2,8 @@
 
 本笔记仍然是非常早期的版本，只是一些随笔，暂时没有归类整理。  
 
+阅读提示：github无法正确渲染markdown数学公式，可以安装chrome浏览器插件：[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)   
+
 ## 一 计算机组成原理
 
 前置知识：
@@ -75,21 +77,25 @@
 
 ## 三 计算机网络
 
-基础：
+入门：
 - [《图解HTTP》](https://book.douban.com/subject/25863515/)：HTTP的简单介绍
 - [《图解TCP/IP》](https://book.douban.com/subject/24737674/)：TCP的简单介绍
+
+基础：
 - [《网络是怎样连接的》](https://book.douban.com/subject/26941639/)
 - [《TCP/IP协议族》](https://book.douban.com/subject/5386194)
 - [《计算机网络 自顶向下方法》](https://book.douban.com/subject/1116437/)：经典书籍，适合入门
 - [《HTTP权威指南》](https://book.douban.com/subject/10746113/)：经典书籍
 - [《HTTP/2基础教程》](https://book.douban.com/subject/27665112/)：应用书籍
-
-深入：
 - [《深入浅出 HTTPS》](https://book.douban.com/subject/30250772/)
 - [《计算机网络（第5版）》](https://book.douban.com/subject/10510747/)
+
+深入：
 - [《TCP/IP详解 卷1：协议》](https://book.douban.com/subject/10742272/)：经典书籍   
 - [《TCP/IP详解 卷2：实现》](https://book.douban.com/subject/4707727/)：经典书籍    
 - [《TCP/IP详解 卷3：T/TCP、HTTP、NNTP及UNIX域协议》](https://book.douban.com/subject/4707732/)：经典书籍   
+
+实践：
 - [《图解服务器端网络架构》](https://book.douban.com/subject/26369253/)：企业级网络架构实践
 
 ## 四 编译原理
