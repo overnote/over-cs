@@ -4,54 +4,58 @@
 
 阅读提示：github 无法正确渲染 markdown 数学公式，可以安装 chrome 浏览器插件：[MathJax Plugin for Github](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/related)
 
+## 零 编程语言
+
+### 0.1 C 语言
+
+- [《C 程序设计语言》第 2 版](https://book.douban.com/subject/1139336/)：短小精悍，也有一部分理论深入，适合入门
+- [《C Primer Plus》第 6 版](https://book.douban.com/subject/26792521/)：最好的 C 语言书籍
+- [《C 语言接口与实现》](https://book.douban.com/subject/26771060/)：C 语言进阶
+
+### 0.2 汇编语言
+
+仅仅学习 C 语言也可，但是计算机组成原理中包含一定的汇编代码。
+
+- [《汇编语言(第 3 版)》王爽](https://book.douban.com/subject/25726019/)：最好的汇编入门书籍
+- [《x86 汇编语言》](https://book.douban.com/subject/20492528/)：王爽的汇编语言看完之后可看此书
+- [《格蠹汇编》](https://book.douban.com/subject/22994051/)：适合 windows 下的调试进阶
+
 ## 一 计算机组成原理
-
-前置知识：
-
-- [《C 程序设计语言》第 2 版](https://book.douban.com/subject/1139336/)
-- [《C Primer Plus》第 6 版](https://book.douban.com/subject/26792521/)
-- [《汇编语言(第 3 版)》](https://book.douban.com/subject/25726019/)
-- [《x86 汇编语言》](https://book.douban.com/subject/20492528/)
-- [《格蠹汇编》](https://book.douban.com/subject/22994051/)
-
-计组：
 
 - [《深入理解计算机系统》第 3 版](https://book.douban.com/subject/26912767/)：csapp，必读经典，建议英文版
 - [《计算机组成与设计：硬件/软件接口》第 5 版](https://book.douban.com/subject/26604008/)：必读经典，建议英文版
 
 ## 二 操作系统
 
-### 2.0 操作系统基础
+### 2.1 系统概论
 
-- [《鸟哥的私房菜：基础学习篇》](https://book.douban.com/subject/4889838/)：适合 0 基础了解 Linux
-- [《Linux 命令行与 shell 脚本编程大全》](https://book.douban.com/subject/26854226/)：shell 精品
-- [《鸟哥的私房菜：服务器架设篇》](https://book.douban.com/subject/10794788/)：偏运维方向
-- [《UNIX/Linux 系统管理技术手册》](https://book.douban.com/subject/10747453/)：偏运维方向
+- [《现代操作系统》第 4 版](https://book.douban.com/subject/27096665/)：必读经典
+- [《操作系统-精髓与设计原理》第 6 版](https://book.douban.com/subject/5064311/)
+- [《操作系统导论》](https://book.douban.com/subject/33463930/)
 
-### 2.1 系统编程
+### 2.2 系统编程
 
 - [《Linux 系统编程》](https://book.douban.com/subject/25828773/)：笔者最爱的系统编程基础书籍，精简又足够深入！
 - [《Linux 环境编程：从应用到内核》](https://book.douban.com/subject/26820213/)：对系统编程深入的补充
 - [《Linux/UNIX 系统编程手册》](https://book.douban.com/subject/25809330/)：大部头，可以取代 APUE
 - [《UNIX 环境高级编程》第 3 版](https://book.douban.com/subject/25900403/)：大部头，俗称 APUE，必读经典
+
+### 2.3 网络编程
+
 - [《Unix 网络编程》卷 1 和卷 2 第 3 版](https://book.douban.com/subject/26434583/)：大部头，APUE 作者著作，必读经典
-
-### 2.2 高性能 Linux 编程
-
 - [《Linux 多线程服务端编程》](https://book.douban.com/subject/20471211/)
 - [《性能之巅》](https://book.douban.com/subject/26586598/)：必读经典
 - [《构建高可用 Linux 服务器(第 3 版)》](https://book.douban.com/subject/26347915/)
-- [《深入理解 LINUX 网络技术内幕》](https://book.douban.com/subject/4015134/)
 
-### 2.3 系统概论
+其他：
 
-- [《操作系统设计与实现》上下册](https://book.douban.com/subject/2044818/)
-- [《现代操作系统》第 4 版](https://book.douban.com/subject/27096665/)：必读经典
-- [《操作系统-精髓与设计原理》第 6 版](https://book.douban.com/subject/5064311/)
-- [《现代体系结构上的 UNIX 系统》](https://book.douban.com/subject/26290762/)
+```txt
+《深入理解 LINUX 网络技术内幕》
+```
 
 ### 2.4 操作系统设计
 
+- [《操作系统设计与实现》上下册](https://book.douban.com/subject/2044818/)
 - [《30 天自制操作系统》](https://book.douban.com/subject/11530329/)
 - [《一个 64 位操作系统的设计与实现》](https://book.douban.com/subject/30222325/)
 - [《操作系统真象还原》](https://book.douban.com/subject/26745156/)
@@ -66,7 +70,6 @@
 - [《深入 Linux 内核架构》](https://book.douban.com/subject/4843567/)
 - [《深度探索 Linux 操作系统》](https://book.douban.com/subject/25743846/)
 - [《Linux 内核设计的艺术》](https://book.douban.com/subject/24708145/)
-- [《Linux 内核源码剖析》](https://book.douban.com/subject/5914256/)
 
 ### 2.6 嵌入式
 
@@ -79,64 +82,51 @@
 
 ## 三 计算机网络
 
-入门：
+### 3.0 快速入门
 
-- [《计算机网络》第 7 版-谢希仁](https://book.douban.com/subject/26960678/)
-- [《计算机网络 自顶向下方法》](https://book.douban.com/subject/1116437/)
 - [《网络是怎样连接的》](https://book.douban.com/subject/26941639/)
 - [《图解 HTTP》](https://book.douban.com/subject/25863515/)
 - [《图解 TCP/IP》](https://book.douban.com/subject/24737674/)
 
-提升：
+### 3.1 网络概论
 
+- [《计算机网络 自顶向下方法》](https://book.douban.com/subject/30280001/)
+- [《计算机网络》第 7 版-谢希仁](https://book.douban.com/subject/26960678/)
 - [《计算机网络（第 5 版）》](https://book.douban.com/subject/10510747/)
+
+### 3.2 协议详解
+
 - [《TCP/IP 协议族》](https://book.douban.com/subject/5386194)
 - [《TCP/IP 详解 卷 1：协议》](https://book.douban.com/subject/10742272/)
 - [《TCP/IP 详解 卷 2：实现》](https://book.douban.com/subject/4707727/)
 - [《TCP/IP 详解 卷 3：T/TCP、HTTP、NNTP 及 UNIX 域协议》](https://book.douban.com/subject/4707732/)
 
-应用：
+### 3.3 HTTP 应用
 
 - [《HTTP 权威指南》](https://book.douban.com/subject/10746113/)
 - [《HTTP/2 基础教程》](https://book.douban.com/subject/27665112/)
 - [《深入浅出 HTTPS》](https://book.douban.com/subject/30250772/)
-- [《图解服务器端网络架构》](https://book.douban.com/subject/26369253/)
 
 ## 四 编译原理
 
+- [《编码》](https://book.douban.com/subject/20260928/)
+- [《现代编译原理》](https://book.douban.com/subject/30191414/)
 - [《编译原理》](https://book.douban.com/subject/3296317/)
 - [《计算机程序的构造与解释》](https://book.douban.com/subject/1148282/)
+- [《编译器设计》](https://book.douban.com/subject/20436488/)
+- [《编程语言实现模式》](https://book.douban.com/subject/10482195/)
+- [《虚拟机设计与实现》](https://book.douban.com/subject/34935105/)
 
-## 五 综合能力
+## 五 数据库
 
-设计模式：
-
-- [《大话设计模式》](https://book.douban.com/subject/2334288/)
-- [《Head First 设计模式（中文版）》](https://book.douban.com/subject/2243615/)
-- [《图解设计模式》](https://book.douban.com/subject/26933281/)
-- [《设计模式之禅（第 2 版）》](https://book.douban.com/subject/25843319/)
-- [《设计模式：可复用面向对象软件的基础》](https://book.douban.com/subject/34262305/)
-
-代码之术：
-
-- [《代码整洁之道》](https://book.douban.com/subject/26919457/)
-- [《架构整洁之道》](https://book.douban.com/subject/30333919/)
-- [《代码大全（第 2 版）》](https://book.douban.com/subject/1477390/)
-- [《重构（第 2 版）》](https://book.douban.com/subject/30468597/)
-
-软件工程：
-
-- [《人月神话》](https://book.douban.com/subject/26358448/)
-- [《敏捷整洁之道》](https://book.douban.com/subject/35083518/)
-- [《领域驱动设计：软件核心复杂性应对之道》](https://book.douban.com/subject/26819666/)
-- [《实现领域驱动设计》](https://book.douban.com/subject/25844633/)
-- [《构建之法（第三版）》](https://book.douban.com/subject/27069503/)
+- [《数据库系统概念》](https://book.douban.com/subject/10548379/)
+- [《数据库系统实现》](https://book.douban.com/subject/4838430/)
 
 ## 附录：笔记汇总
 
-**OverNote**地址：https://github.com/overnote
+**OverNote**地址：<https://github.com/overnote>
 
-**推荐书籍**地址：https://github.com/ruyuejun/polaris
+**推荐书籍**地址：<https://github.com/ruyuejun/polaris>
 
 **OverNote 分类**：
 
