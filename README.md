@@ -27,6 +27,13 @@
 
 ## 二 操作系统
 
+### 2.0 系统使用
+
+- [《鸟哥的私房菜：基础学习篇》](https://book.douban.com/subject/4889838/)：适合 0 基础了解 Linux
+- [《Linux 命令行与 shell 脚本编程大全》](https://book.douban.com/subject/26854226/)：shell 精品
+- [《鸟哥的私房菜：服务器架设篇》](https://book.douban.com/subject/10794788/)：偏运维方向
+- [《UNIX/Linux 系统管理技术手册》](https://book.douban.com/subject/10747453/)：偏运维方向
+
 ### 2.1 系统概论
 
 - [《现代操作系统》第 4 版](https://book.douban.com/subject/27096665/)：必读经典
