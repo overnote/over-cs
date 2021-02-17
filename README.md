@@ -42,6 +42,7 @@
 
 ### 2.2 系统编程
 
+- [《操作系统导论》](https://book.douban.com/subject/33463930/)
 - [《Linux 系统编程》](https://book.douban.com/subject/25828773/)：笔者最爱的系统编程基础书籍，精简又足够深入！
 - [《Linux 环境编程：从应用到内核》](https://book.douban.com/subject/26820213/)：对系统编程深入的补充
 - [《Linux/UNIX 系统编程手册》](https://book.douban.com/subject/25809330/)：大部头，可以取代 APUE
@@ -70,6 +71,7 @@
 
 ### 2.5 内核源码
 
+- [《Linux内核源代码情景分析》上下册](https://book.douban.com/subject/1240321/)
 - [《Unix 内核源码剖析》](https://book.douban.com/subject/25831005/)
 - [《Linux 内核设计与实现》第 3 版](https://book.douban.com/subject/6097773/)
 - [《深入理解 Linux 内核》第 3 版](https://book.douban.com/subject/2287506/)
@@ -116,6 +118,11 @@
 
 ## 四 编译原理
 
+基础实践：
+
+- [《两周自制脚本语言》](https://book.douban.com/subject/25908672/)
+- [《游戏脚本高级编程》](https://book.douban.com/subject/1927405/)
+
 - [《编码》](https://book.douban.com/subject/20260928/)
 - [《现代编译原理》](https://book.douban.com/subject/30191414/)
 - [《编译原理》](https://book.douban.com/subject/3296317/)
@@ -123,6 +130,8 @@
 - [《编译器设计》](https://book.douban.com/subject/20436488/)
 - [《编程语言实现模式》](https://book.douban.com/subject/10482195/)
 - [《虚拟机设计与实现》](https://book.douban.com/subject/34935105/)
+
+
 
 ## 五 数据库
 
