@@ -33,12 +33,13 @@
 - [《Linux 命令行与 shell 脚本编程大全》](https://book.douban.com/subject/26854226/)：shell 精品
 - [《鸟哥的私房菜：服务器架设篇》](https://book.douban.com/subject/10794788/)：偏运维方向
 - [《UNIX/Linux 系统管理技术手册》](https://book.douban.com/subject/10747453/)：偏运维方向
+- [《构建高可用 Linux 服务器(第 3 版)》](https://book.douban.com/subject/26347915/)
 
 ### 2.1 系统概论
 
 - [《现代操作系统》第 4 版](https://book.douban.com/subject/27096665/)：必读经典
 - [《操作系统-精髓与设计原理》第 6 版](https://book.douban.com/subject/5064311/)
-- [《操作系统导论》](https://book.douban.com/subject/33463930/)
+- [《现代操作系统：原理与实现》](https://book.douban.com/subject/35208251/)
 
 ### 2.2 系统编程
 
@@ -53,13 +54,7 @@
 - [《Unix 网络编程》卷 1 和卷 2 第 3 版](https://book.douban.com/subject/26434583/)：大部头，APUE 作者著作，必读经典
 - [《Linux 多线程服务端编程》](https://book.douban.com/subject/20471211/)
 - [《性能之巅》](https://book.douban.com/subject/26586598/)：必读经典
-- [《构建高可用 Linux 服务器(第 3 版)》](https://book.douban.com/subject/26347915/)
-
-其他：
-
-```txt
-《深入理解 LINUX 网络技术内幕》
-```
+- [《深入理解 LINUX 网络技术内幕》](https://book.douban.com/subject/4015134/)
 
 ### 2.4 操作系统设计
 
@@ -71,7 +66,7 @@
 
 ### 2.5 内核源码
 
-- [《Linux内核源代码情景分析》上下册](https://book.douban.com/subject/1240321/)
+- [《Linux 内核源代码情景分析》上下册](https://book.douban.com/subject/1240321/)
 - [《Unix 内核源码剖析》](https://book.douban.com/subject/25831005/)
 - [《Linux 内核设计与实现》第 3 版](https://book.douban.com/subject/6097773/)
 - [《深入理解 Linux 内核》第 3 版](https://book.douban.com/subject/2287506/)
@@ -122,6 +117,7 @@
 
 - [《两周自制脚本语言》](https://book.douban.com/subject/25908672/)
 - [《游戏脚本高级编程》](https://book.douban.com/subject/1927405/)
+- [《自己动手实现 Lua》](https://book.douban.com/subject/30348061)
 
 - [《编码》](https://book.douban.com/subject/20260928/)
 - [《现代编译原理》](https://book.douban.com/subject/30191414/)
@@ -130,8 +126,12 @@
 - [《编译器设计》](https://book.douban.com/subject/20436488/)
 - [《编程语言实现模式》](https://book.douban.com/subject/10482195/)
 - [《虚拟机设计与实现》](https://book.douban.com/subject/34935105/)
+- [《高级编译器设计与实现》](https://book.douban.com/subject/1400374)
 
+Java 虚拟机：
 
+- [《深入理解 Java 虚拟机（第 3 版）》](https://book.douban.com/subject/34907497)
+- [《自己动手写 Java 虚拟机》](https://book.douban.com/subject/26802084)
 
 ## 五 数据库
 
