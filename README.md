@@ -113,17 +113,23 @@
 
 ## 四 编译原理
 
-基础实践：
+基础：
+
+- [《计算的本质》](https://book.douban.com/subject/26148763/)：基础入门，提供了完整的状态机代码
+- [《编码》](https://book.douban.com/subject/20260928/)
+- [《计算机程序的构造与解释》](https://book.douban.com/subject/1148282/)
+
+实践：
 
 - [《两周自制脚本语言》](https://book.douban.com/subject/25908672/)
 - [《游戏脚本高级编程》](https://book.douban.com/subject/1927405/)
 - [《自己动手实现 Lua》](https://book.douban.com/subject/30348061)
+- [《编译器设计（第 2 版）》](https://book.douban.com/subject/20436488/)
 
-- [《编码》](https://book.douban.com/subject/20260928/)
+提升：
+
 - [《现代编译原理》](https://book.douban.com/subject/30191414/)
 - [《编译原理》](https://book.douban.com/subject/3296317/)
-- [《计算机程序的构造与解释》](https://book.douban.com/subject/1148282/)
-- [《编译器设计》](https://book.douban.com/subject/20436488/)
 - [《编程语言实现模式》](https://book.douban.com/subject/10482195/)
 - [《虚拟机设计与实现》](https://book.douban.com/subject/34935105/)
 - [《高级编译器设计与实现》](https://book.douban.com/subject/1400374)
