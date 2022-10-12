@@ -35,6 +35,8 @@
   "C_Cpp.errorSquiggles": "Disabled",
   "files.associations": {
     "*.json": "jsonc",
-    "stdio.h": "c"
+    "stdio.h": "c",
+    "string.h": "c",
+    "ctype.h": "c"
   }
 }
