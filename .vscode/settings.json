@@ -39,5 +39,6 @@
     "string.h": "c",
     "ctype.h": "c"
   },
-  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 4, BreakBeforeBraces: Attach}"
+  // "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM,  BreakBeforeBraces: Attach}"
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: LLVM, IndentWidth: 4}"
 }
