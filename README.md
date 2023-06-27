@@ -58,6 +58,7 @@
 
 ### 2.4 操作系统设计
 
+- [《操作系统真象还原》](https://book.douban.com/subject/26745156/)
 - [《操作系统设计与实现》上下册](https://book.douban.com/subject/2044818/)
 - [《30 天自制操作系统》](https://book.douban.com/subject/11530329/)
 - [《一个 64 位操作系统的设计与实现》](https://book.douban.com/subject/30222325/)
