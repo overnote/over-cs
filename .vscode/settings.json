@@ -4,13 +4,6 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  "markdownlint.config": {
-    "default": true,
-    "MD010": {
-      "code_blocks": false
-    },
-    "MD030": false
-  },
   "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.wordWrap": "on",
@@ -23,16 +16,6 @@
     "editor.useTabStops": true
   },
   "workbench.editor.enablePreview": false,
-  "vetur.format.defaultFormatter.html": "prettyhtml",
-  "vetur.format.defaultFormatter.css": "prettier",
-  "vetur.format.defaultFormatter.postcss": "prettier",
-  "vetur.format.defaultFormatter.scss": "prettier",
-  "vetur.format.defaultFormatter.sass": "sass-formatter",
-  "vetur.format.defaultFormatter.less": "prettier",
-  "vetur.format.defaultFormatter.stylus": "stylus-supremacy",
-  "vetur.format.defaultFormatter.js": "prettier",
-  "vetur.format.defaultFormatter.ts": "prettier",
-  "C_Cpp.errorSquiggles": "Disabled",
   "files.associations": {
     "*.json": "jsonc",
     "stdio.h": "c",
